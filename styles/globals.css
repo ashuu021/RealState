@@ -2,11 +2,11 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #1c1c1c; /* Soft black */
-  --primary: #2d5a86; /* Soft premium blue */
-  --primary-light: #e6f0f7; /* Very soft blue bg */
-  --secondary: #f4f6f8; /* Light gray/blue for cards */
-  --accent: #bfa15f; /* Gold/Luxury accent if needed */
+  --foreground: #1a1a1a;
+  --primary: #1e3a8a; /* Royal Blue */
+  --primary-light: #eff6ff;
+  --secondary: #f8fafc;
+  --accent: #c0a062; /* Premium Gold */
 }
 
 @theme inline {
@@ -16,6 +16,9 @@
   --color-primary-light: var(--primary-light);
   --color-secondary: var(--secondary);
   --color-accent: var(--accent);
+  
+  --font-display: var(--font-playfair);
+  --font-sans: var(--font-lato);
 }
 
 body {

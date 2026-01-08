@@ -18,7 +18,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                     {/* Brand */}
                     <div className="space-y-6">
-                        <h2 className="text-2xl font-bold text-white">Hometrace</h2>
+                        <h2 className="text-2xl font-bold text-white">XYZ Group</h2>
                         <p className="text-gray-400">
                             We help you find your dream home with our premium real estate services.
                             Trusted by thousands of customers worldwide.
@@ -48,9 +48,9 @@ export default function Footer() {
                     <div>
                         <h3 className="text-lg font-bold mb-6">Contact Us</h3>
                         <ul className="space-y-4 text-gray-400">
-                            <li>123 Real Estate Ave, New York, NY 10001</li>
-                            <li>+1 (555) 123-4567</li>
-                            <li>info@hometrace.com</li>
+                            <li>DLF Cyber City, Gurugram, India 122002</li>
+                            <li>+91 98765 43210</li>
+                            <li>info@xyzgroup.com</li>
                         </ul>
                     </div>
 
@@ -83,7 +83,7 @@ export default function Footer() {
             {/* Large Text Background */}
             <div className="absolute bottom-0 left-0 w-full overflow-hidden pointer-events-none opacity-5">
                 <h1 className="text-[20vw] font-bold text-white leading-none text-center whitespace-nowrap">
-                    HOMETRACE
+                    XYZ GROUP
                 </h1>
             </div>
         </footer>

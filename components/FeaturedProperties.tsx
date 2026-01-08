@@ -5,20 +5,20 @@ export default function FeaturedProperties() {
     const properties = [
         {
             id: "1",
-            title: "Luxury Villa in Beverly Hills",
-            location: "Beverly Hills, CA",
-            price: "$4,500,000",
-            image: "/hero.png", // Reusing hero for demo
+            title: "Luxury Villa in South Delhi",
+            location: "Greater Kailash, New Delhi",
+            price: "₹18.5 Cr",
+            image: "/hero-villa.png",
             beds: 5,
             baths: 4,
             sqft: 4500,
         },
         {
             id: "2",
-            title: "Modern Apartment in NYC",
-            location: "Manhattan, NY",
-            price: "$2,800,000",
-            image: "/hero.png", // Reuse
+            title: "Modern Apartment in Bandra",
+            location: "Bandra West, Mumbai",
+            price: "₹8.2 Cr",
+            image: "/interior-living.png",
             beds: 3,
             baths: 2,
             sqft: 2100,
@@ -26,19 +26,19 @@ export default function FeaturedProperties() {
         {
             id: "3",
             title: "Seaside Mansion",
-            location: "Miami, FL",
-            price: "$6,200,000",
-            image: "/hero.png", // Reuse
+            location: "Juhu, Mumbai",
+            price: "₹25.0 Cr",
+            image: "/hero.png",
             beds: 6,
             baths: 6,
             sqft: 6000,
         },
         {
             id: "4",
-            title: "Downtown Penthouse",
-            location: "Chicago, IL",
-            price: "$3,100,000",
-            image: "/hero.png", // Reuse
+            title: "Premium Penthouse",
+            location: "Indiranagar, Bangalore",
+            price: "₹6.5 Cr",
+            image: "/apartment-ext.png",
             beds: 4,
             baths: 3,
             sqft: 3200,
@@ -50,7 +50,7 @@ export default function FeaturedProperties() {
             <div className="container-custom">
                 <div className="flex justify-between items-end mb-12">
                     <div>
-                        <h2 className="text-4xl font-bold text-foreground mb-4">Explore The Featured Property</h2>
+                        <h2 className="text-4xl font-bold font-display text-foreground mb-4">Explore The Featured Property</h2>
                         <p className="text-gray-500 max-w-xl">
                             We carefully select the best properties that meet our high standards for quality and value.
                         </p>

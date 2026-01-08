@@ -9,7 +9,7 @@ export default function SearchBar() {
     const [activeTab, setActiveTab] = useState<"buy" | "rent" | "sell">("buy");
 
     return (
-        <div className="bg-white rounded-2xl shadow-xl p-6 max-w-4xl mx-auto -mt-10 relative z-20 border border-gray-100">
+        <div className="bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl p-6 max-w-4xl mx-auto relative z-20 border border-white/50">
             {/* Tabs */}
             <div className="flex gap-6 mb-6 border-b border-gray-100 pb-2">
                 {(["buy", "rent", "sell"] as const).map((tab) => (
@@ -38,9 +38,10 @@ export default function SearchBar() {
                     <div className="flex items-center gap-2">
                         <MapPin className="w-5 h-5 text-primary" />
                         <select className="w-full bg-transparent outline-none text-foreground font-medium appearance-none cursor-pointer">
-                            <option>New York, USA</option>
-                            <option>Los Angeles, USA</option>
-                            <option>London, UK</option>
+                            <option>Delhi NCR</option>
+                            <option>Mumbai</option>
+                            <option>Bangalore</option>
+                            <option>Hyderabad</option>
                         </select>
                     </div>
                 </div>
@@ -56,10 +57,10 @@ export default function SearchBar() {
                     <div className="flex items-center gap-2">
                         <Home className="w-5 h-5 text-primary" />
                         <select className="w-full bg-transparent outline-none text-foreground font-medium appearance-none cursor-pointer">
-                            <option>Duplex House</option>
-                            <option>Apartment</option>
-                            <option>Villa</option>
+                            <option>Luxury Villa</option>
                             <option>Penthouse</option>
+                            <option>Apartment</option>
+                            <option>Farmhouse</option>
                         </select>
                     </div>
                 </div>
@@ -70,14 +71,14 @@ export default function SearchBar() {
                 {/* Price Range */}
                 <div className="relative group">
                     <label className="text-xs text-gray-400 font-medium block mb-1">
-                        Average Price
+                        Budget
                     </label>
                     <div className="flex items-center gap-2">
                         <DollarSign className="w-5 h-5 text-primary" />
                         <select className="w-full bg-transparent outline-none text-foreground font-medium appearance-none cursor-pointer">
-                            <option>$5000 - $10000</option>
-                            <option>$10k - $50k</option>
-                            <option>$50k+</option>
+                            <option>₹1 Cr - ₹3 Cr</option>
+                            <option>₹3 Cr - ₹10 Cr</option>
+                            <option>₹10 Cr+</option>
                         </select>
                     </div>
                 </div>

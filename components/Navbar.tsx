@@ -43,8 +43,8 @@ export default function Navbar() {
         >
             <div className="container-custom flex items-center justify-between">
                 {/* Logo */}
-                <Link href="/" className="text-2xl font-bold tracking-tight text-primary">
-                    Hometrace
+                <Link href="/" className="text-3xl font-bold font-display tracking-tight text-primary">
+                    XYZ Group
                 </Link>
 
                 {/* Desktop Menu */}
