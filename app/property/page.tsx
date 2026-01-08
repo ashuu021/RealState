@@ -1,11 +1,8 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import FeaturedProperties from "@/components/FeaturedProperties";
 
 export default function PropertyListingPage() {
     return (
         <main className="min-h-screen flex flex-col pt-20">
-            <Navbar />
             <div className="bg-primary-light/30 py-16">
                 <div className="container-custom text-center">
                     <h1 className="text-4xl font-bold text-foreground mb-4">Properties For Sale</h1>
@@ -15,7 +12,6 @@ export default function PropertyListingPage() {
                 </div>
             </div>
             <FeaturedProperties />
-            <Footer />
         </main>
     );
 }

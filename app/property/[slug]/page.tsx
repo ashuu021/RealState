@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import ImageSlider from "@/components/ImageSlider";
 import PropertyOverview from "@/components/PropertyOverview";
 import PropertyFeatures from "@/components/PropertyFeatures";
@@ -12,7 +10,6 @@ import SimilarProperties from "@/components/SimilarProperties";
 export default function PropertyDetailsPage() {
     return (
         <main className="min-h-screen flex flex-col pt-20">
-            <Navbar />
 
             {/* 1. Hero Slider */}
             <ImageSlider />
@@ -49,8 +46,6 @@ export default function PropertyDetailsPage() {
                 {/* 7. Similar Properties */}
                 <SimilarProperties />
             </div>
-
-            <Footer />
         </main>
     );
 }

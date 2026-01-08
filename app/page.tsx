@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import StatsSection from "@/components/StatsSection";
 import FeaturedProperties from "@/components/FeaturedProperties";
@@ -6,12 +5,10 @@ import Brands from "@/components/Brands";
 import Testimonials from "@/components/Testimonials";
 import BlogSection from "@/components/BlogSection";
 import FaqSection from "@/components/FaqSection";
-import Footer from "@/components/Footer";
 
 export default function Home() {
     return (
         <main className="min-h-screen flex flex-col">
-            <Navbar />
             <Hero />
             <StatsSection />
             <FeaturedProperties />
@@ -19,7 +16,6 @@ export default function Home() {
             <Testimonials />
             <BlogSection />
             <FaqSection />
-            <Footer />
         </main>
     );
 }

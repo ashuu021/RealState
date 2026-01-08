@@ -1,8 +1,17 @@
+"use client";
+
 import { Facebook, Twitter, Instagram, Linkedin, Send } from "lucide-react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Button } from "./Button";
 
 export default function Footer() {
+    const pathname = usePathname();
+
+    if (pathname.startsWith("/admin")) {
+        return null;
+    }
+
     return (
         <footer className="bg-[#0a0a0a] text-white pt-20 pb-10 relative overflow-hidden">
             <div className="container-custom relative z-10">
